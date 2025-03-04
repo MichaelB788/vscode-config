@@ -24,10 +24,7 @@
     // Normal ModeToggles
     "vim.normalModeKeyBindings": [
         // Opens the command palette
-        { "before": ["<leader>", "<leader>"], "commands": [ "workbench.action.showCommands", ], "silent": true },
-
-        // Tab
-        { "before": ["<leader>", "w", "d"], "after": [":", "q", "<enter>"] }, // Closes a window
+        { "before": ["<leader>", "<leader>"], "commands": [ "workbench.action.showCommands" ], "silent": true },
 
         // Window
         { "before": ["<leader>", "w", "d"], "after": [":", "q", "<enter>"] }, // Closes a window
